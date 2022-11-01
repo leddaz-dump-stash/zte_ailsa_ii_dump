@@ -1,0 +1,27 @@
+<resources>
+    <string name="QUICK_SETTING_ITEMS">wifi;bt;flashlight;location;airplane;rotation;smart;hotspot;dnd;sync;saver;inversion;cast</string>
+    <string name="QUICK_SETTING_ITEMS_NOT_SUPPORT">data;rounded_cornor</string>
+    <boolean name="LONG_PRESS_UNLOCK">false</boolean>
+    <boolean name="SHOW_WIFI_AND_HOTSPOT_POP">true</boolean>
+    <boolean name="DYNAMIC_ICON_NOTIFICATION_PATCH">true</boolean>
+    <string name="QUICK_SETTING_ITEMS_EXTRA_SUPPORT">data0;data1;cast</string>
+    <boolean name="REMOTE_LOCK_FORBID_SWITCH_USER">true</boolean>
+    <boolean name="FINGERPRINT_UNLOCK_OPTIMIZATION">true</boolean>
+    <boolean name="PHONE_COLL_LOCK">true</boolean>
+    <boolean name="SHOW_DATA_FOR_BLADE">true</boolean>
+    <boolean name="SHOW_DATA_WHEN_WIFI_CONNECTED">false</boolean>
+    <boolean name="SHOULD_SHOW_NOTIFI_FOREVER_FOR_MOUNT">false</boolean>
+    <boolean name="SHOW_QS_DETAIL_VIEW">true</boolean>
+    <boolean name="VOICE_UNLOCK_KEYGUARD">true</boolean>
+    <boolean name="SHOW_DIALER">true</boolean>
+    <boolean name="PIN_PUK_TOAST">false</boolean>
+    <boolean name="PLAY_PREVIEW_SOUND">false</boolean>
+    <integer name="BARLABELS_TEXT_SIZE">8</integer>
+    <boolean name="SingleCastClick">true</boolean>
+    <boolean name="ZteCastStyle">false</boolean>
+    <boolean name="SHOW_BAR_LABEL">false</boolean>
+    <boolean name="SHOW_BAR_LABELS">true</boolean>
+    <boolean name="SHOW_LABEL_MARQUEE_FOREVER">true</boolean>
+	<boolean name="RELAYOUT_KEYGUARD_STATUS_BAR">false</boolean>
+    <boolean name="SUPPORT_4G_CA">true</boolean>
+</resources>

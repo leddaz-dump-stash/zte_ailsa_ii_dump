@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <!-- left screen [0] -->
+    <appwidget
+        launcher:packageName="com.google.android.googlequicksearchbox"
+        launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+    <appwidget
+        launcher:packageName="com.android.deskclock"
+        launcher:className="com.android.alarmclock.DigitalAppWidgetProvider"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="4"
+        launcher:spanY="2" />
+    <folder
+        launcher:title="Google"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="4">
+        <favorite
+            launcher:packageName="com.google.android.googlequicksearchbox"
+            launcher:className="com.google.android.googlequicksearchbox.SearchActivity"/>
+        <favorite
+            launcher:packageName="com.android.chrome"
+            launcher:className="com.google.android.apps.chrome.Main"/>
+        <favorite
+            launcher:packageName="com.google.android.gm"
+            launcher:className="com.google.android.gm.ConversationListActivityGmail"/>
+        <favorite
+            launcher:packageName="com.google.android.apps.maps"
+            launcher:className="com.google.android.maps.MapsActivity"/>
+        <favorite
+            launcher:packageName="com.google.android.youtube"
+            launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"/>
+        <favorite
+            launcher:packageName="com.google.android.apps.docs"
+            launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity"/>
+        <favorite
+            launcher:packageName="com.google.android.music"
+            launcher:className="com.android.music.activitymanagement.TopLevelActivity"/>
+        <favorite
+            launcher:packageName="com.google.android.videos"
+            launcher:className="com.google.android.youtube.videos.EntryPoint"/>
+        <favorite
+            launcher:packageName="com.google.android.apps.photos"
+            launcher:className="com.google.android.apps.photos.home.HomeActivity"/>
+		<favorite
+            launcher:packageName="com.google.android.apps.docs.editors.docs"
+            launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity"/>
+		<favorite
+            launcher:packageName="com.google.android.apps.tachyon"
+            launcher:className="com.google.android.apps.tachyon.MainActivity"/>
+		<favorite
+            launcher:packageName="com.google.android.apps.docs.editors.sheets"
+            launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity"/>
+		<favorite
+            launcher:packageName="com.google.android.apps.docs.editors.slides"
+            launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity"/>
+		<favorite
+            launcher:packageName="com.google.android.keep"
+            launcher:className="com.google.android.keep.activities.BrowseActivity"/>
+    </folder>
+    <favorite
+        launcher:packageName="com.android.vending"
+        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="4" />
+	<favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.Settings"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="4" />
+	<favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="4" />
+
+    <!--  Hotseat (We use the screen as the position of the item in the hotseat)  -->
+    <favorite
+        launcher:packageName="com.android.dialer"
+        launcher:className="com.android.dialer.app.DialtactsActivity"
+        launcher:container="-101"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.android.messaging"
+        launcher:className="com.android.messaging.ui.conversationlist.ConversationListActivity"
+        launcher:container="-101"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.ume.browser.northamerica"
+        launcher:className="com.ume.browser.MainActivity"
+        launcher:container="-101"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.zte.camera"
+        launcher:className="com.zte.camera.CameraActivity"
+        launcher:container="-101"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0" />
+</favorites>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voicemail>
+<!--
+	This is a list for operator specific default voicemail numbers.
+	For those EF_MBDN(3G) and EF_MN(CPHS) are both empty case,
+	We will use below voicemail number for instead if numeric is matched.
+
+	Please also be noted, below numbers are not modifiable once anyone
+	of those is used as default VM number.
+
+	Format is listed as below:
+	<voicemail
+	    numeric="MCC+MNC"
+	    carrier="Operator Name"
+	    vmnumber="Voicemail Number"
+		gid1="SIM card GID1"
+		spn="Operator SPN"
+	    vmtag="Tag for Voicemail" />
+===============================================================================================================
+when                 who                  what , where,  why                             comment tag
+2015-03-03       qincunchang       Add voicemail for ATT TF
+2017-12-09          liuyan                add one voicemail for spanish
+===============================================================================================================
+-->
+    <!-- 310 begin spn as gid1 -->
+    <voicemail
+        numeric="310260"
+        gid1="DEFF"
+        carrier="TF-TMO"
+        vmnumber="+18056377243"
+        vmtag="Voicemail" />
+
+    <voicemail
+        numeric="310260"
+        gid1="534D"
+        carrier="TF-SimpleMobile"
+        vmnumber="+18056377243"
+        vmtag="Voicemail" />
+
+    <voicemail
+        numeric="330110"
+        gid1="DEFF"
+        carrier="TF-Claro"
+        vmnumber="*86"
+        vmtag="Voicemail" />
+
+    <!-- 214 Spain begin spn as SPN -->
+    <!-- VODAFONE  -->
+    <voicemail numeric="21401"
+        vmnumber="22177"
+    />
+    <voicemail numeric="21401"
+        vmnumber="22177"
+        spn="vodafone ES"
+    />
+    <!-- ORANGE  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="Orange"
+    />
+    <!-- YOIGO  -->
+    <voicemail numeric="21404"
+        vmnumber="+34633633633"
+    />
+    <voicemail numeric="21404"
+        vmnumber="+34633633633"
+        spn="Yoigo"
+    />
+    <!-- MOVISTAR  -->
+    <voicemail numeric="21407"
+        vmnumber="123"
+    />
+    <voicemail numeric="21407"
+        vmnumber="123"
+        spn="Movistar"
+    />
+    <!-- JAZZTEL  -->
+    <voicemail numeric="21403"
+        vmnumber="1222"
+        spn="JAZZTEL"
+    />
+    <voicemail numeric="21407"
+        vmnumber="1222"
+        spn="JAZZTEL"
+    />
+    <voicemail numeric="21421"
+        vmnumber="1222"
+        spn="JAZZTEL"
+    />
+    <!-- EUSKALTEL  -->
+    <voicemail numeric="21403"
+        vmnumber="2242"
+        spn="EUSKALTEL"
+    />
+    <voicemail numeric="21408"
+        vmnumber="2242"
+        spn="EUSKALTEL"
+    />
+    <!-- SIMYO  -->
+    <voicemail numeric="21403"
+        vmnumber="1213"
+        spn="simyo"
+    />
+    <voicemail numeric="21419"
+        vmnumber="1213"
+        spn="simyo"
+    />
+    <!-- telecable  -->
+    <voicemail numeric="21404"
+        vmnumber="333"
+        spn="telecable"
+    />
+    <voicemail numeric="21406"
+        vmnumber="333"
+        spn="telecable"
+    />
+    <voicemail numeric="21416"
+        vmnumber="333"
+        spn="telecable"
+    />
+    <!-- zte_modify_LY,add for spanish voicemail,2017-12-9  -->
+    <voicemail numeric="21405"
+        vmnumber="333"
+        spn="telecable"
+    />
+     <!-- mobilR  -->
+    <voicemail numeric="21403"
+        vmnumber="277"
+        spn="mobilR"
+    />
+    <voicemail numeric="21406"
+        vmnumber="22277"
+        spn="mobilR"
+    />
+    <voicemail numeric="21417"
+        vmnumber="277"
+        spn="mobilR"
+    />
+     <!-- Tuenti  -->
+    <voicemail numeric="21432"
+        vmnumber="22123"
+        spn="Tuenti"
+    />
+     <!-- Carrefour  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="Carrefour"
+    />
+    <!-- Eroski Movil  -->
+    <voicemail numeric="21406"
+        vmnumber="22177"
+        spn="Eroski Movil"
+    />
+    <!-- MASMovil  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="MASMovil"
+    />
+    <!-- pepephone  -->
+    <voicemail numeric="21405"
+        vmnumber="22177"
+        spn="pepephone"
+    />
+    <voicemail numeric="21406"
+        vmnumber="22177"
+        spn="pepephone"
+    />
+    <!-- amena  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="amena"
+    />
+    <!-- Lebara  -->
+    <voicemail numeric="21406"
+        vmnumber="22177"
+        spn="Lebara"
+    />
+    <!-- Happy  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="Happy"
+    />
+    <!-- CABLE movil  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="CABLE movil"
+    />
+    <!-- Ibercom  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="Ibercom"
+    />
+    <!-- MovilDIA  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="MovilDIA"
+    />
+    <!-- LCR  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="LCR"
+    />
+    <!-- LlamaYA  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="LlamaYA"
+    />
+    <!-- YOU Mobile  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="YOU Mobile"
+    />
+    <!-- Lowi  -->
+    <voicemail numeric="21406"
+        vmnumber="2211"
+        spn="Lowi"
+    />
+    <!-- IOS  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="IOS"
+    />
+    <!-- REPUBLICA MOVIL  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="REPUBLICA MOVIL"
+    />
+    <!-- 214 end  -->
+    <!-- lycamobile  -->
+    <voicemail numeric="21425"
+        vmnumber="121"
+        spn="Lycamobile"
+    />
+    <!-- lycamobile end  -->
+    <!-- Digimobil  -->
+    <voicemail numeric="21422"
+        vmnumber="1210"
+        spn="Digi.Mobil"
+    />
+    <voicemail numeric="21422"
+        vmnumber="1210"
+        spn="digimobil"
+    />
+    <!-- Digimobil end  -->
+    <!-- RACC  -->
+    <voicemail numeric="21403"
+        vmnumber="2242"
+        spn="RACC"
+    />
+    <!-- RACC end  -->
+    <!-- oceans  -->
+    <voicemail numeric="21403"
+        vmnumber="242"
+        spn="oceans"
+    />
+    <!-- oceans end  -->
+</voicemail>

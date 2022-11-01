@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="6">
+
+    <secure key = "lock_screen_lock_after_timeout"
+        value = "0"
+    />
+
+    <secure key = "doze_enabled"
+        value = "0"
+    />
+
+    <secure key="camera_double_tap_power_gesture_disabled"
+        value="1"
+    />
+
+    <secure key="default_input_method"
+         value="com.emoji.keyboard.touchpal/com.cootek.smartinput5.TouchPalIME"
+    />
+
+    <secure key="enabled_input_methods"
+         value="com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME:com.google.android.googlequicksearchbox/com.google.android.voicesearch.ime.VoiceInputMethodService:com.emoji.keyboard.touchpal/com.cootek.smartinput5.TouchPalIME"
+    />
+
+</settings>

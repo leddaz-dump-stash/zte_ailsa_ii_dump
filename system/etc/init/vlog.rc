@@ -1,0 +1,13 @@
+service vlog /system/bin/vlog
+    user root
+    disabled
+    oneshot
+
+on property:persist.sys.vlog.enable=0
+    write /sys/module/vendor_log/parameters/vlog_status 0
+    stop vlog
+
+on property:persist.sys.vlog.enable=1
+    write /sys/module/vendor_log/parameters/vlog_status 1
+    start vlog
+

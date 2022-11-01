@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<list>
+    <string>com.pingan.papd</string>
+	<string>com.zte.softda</string>
+	<string>com.zte.handservice</string>
+	<string>com.zte.smartpay</string>
+	<string>cn.com.zte.app.redenvelope</string>
+	<string>cn.com.zte.android.teamshare</string>
+	<string>cn.com.zte.mobilemail</string>
+	<string>com.zte.mici</string>
+	<string>cn.com.zte.app.zel</string>
+	<string>com.zte.allowance</string>
+	<string>com.zte.km.share</string>
+	<string>cn.com.zte.formal.mobilechannel</string>
+	<string>cn.com.zte.zxmreader</string>
+	<string>cn.com.zte.formal.mobilecrm</string>
+	<string>cn.com.zte.tescobag</string>
+	<string>cn.com.zte.formal.mobilecsc</string>
+	<string>com.zte.mobileconference</string>
+	<string>cn.com.zte.mobileemeeting</string>
+	<string>zte.com.cn.jr.magzine</string>
+	<string>com.zte.ae</string>
+	<string>com.zte.etrip</string>
+	<string>cn.com.zte.mobilehr</string>
+	<string>com.zte.positionenglish</string>
+	<string>com.alipay.security.mobile.authenticator</string>
+	<string>com.zte.xabb.goodshare</string>
+	<string>com.zhongx.sjh.en</string>
+	<string>com.zte.hsoverseas</string>
+	<string>com.zte.hsoverseas_ex</string>
+</list>

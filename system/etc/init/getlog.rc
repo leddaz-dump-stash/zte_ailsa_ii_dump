@@ -1,0 +1,81 @@
+#
+# zte log
+#
+on property:persist.sys.ztelog.enable=0
+    stop getlog
+
+on property:persist.sys.ztelog.enable=1
+    mount debugfs none /sys/kernel/debug
+    chmod 0755 /sys/kernel/debug
+    start getlog
+    #enable to record when app enter suspend or resume
+    write /sys/module/msm_pm/parameters/zte_enableRecord 1
+    write /sys/module/pm_debug/parameters/zte_enableRecord 1
+    start start_tracer
+
+#on property:persist.sys.k=*
+#    start start_tracer
+
+service getlog /system/bin/getlogtofile
+    class core
+    user root
+    disabled
+    oneshot
+
+service dumpsystrace /system/bin/dumptrace.sh
+    class main
+    user root
+    disabled
+    oneshot
+    seclabel u:r:tracer:s0
+
+service getsystrace /system/bin/start_tracer.sh
+    user root
+    disabled
+    oneshot
+    keycodes 115 116
+    seclabel u:r:tracer:s0
+
+service start_tracer /system/bin/start_tracer.sh
+    user root
+    disabled
+    oneshot
+
+service stop_tracer /system/bin/stop_tracer.sh
+    user root
+    disabled
+    oneshot
+
+service logcontrol /system/bin/logcontrol
+    class late_start
+    user root
+    oneshot
+
+#
+# zte tcpdump log
+#
+on property:persist.sys.tcpdump.enable=0
+    start stop_rmtcpdump
+
+on property:persist.sys.tcpdump.enable=1
+    start start_rmtcpdump
+
+service start_rmtcpdump /system/xbin/tcpdump -iany -p -vv -s 0 -C 40 -W 3 -z gzip -w /data/tcplog/tcpdump.pcap
+    class late_start
+    user root
+    disabled
+    oneshot
+
+service stop_rmtcpdump /system/xbin/tcpdump -k
+    class late_start
+    user root
+    disabled
+    oneshot
+
+service shutdown /system/bin/collectusage.sh
+    disabled
+    oneshot
+    seclabel u:r:sdlog:s0
+
+on property:sys.shutdown.requested=*
+    start shutdown

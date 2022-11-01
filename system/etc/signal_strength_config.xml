@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- add for signalstrength config value -->
+<signalstrengthconfig operator="ATT" maxlevel="5" minlevel="1">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "80,89,98,104,125"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "80,90,100,106,125"/>
+    <signalstrength signalstrengthtype="ecio" type="WCDMA" value = "10,12,14,16,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-85,-95,-105,-115,-140"/>
+    <signalstrength signalstrengthtype="rssnr" type="LTE" value = "129,44,9,-31,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="TMOBILE" maxlevel="5" minlevel="0">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "80,89,98,104,1000,1001"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "89,97,103,113,125,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-100,-110,-115,-120,-135,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="SPRINT" maxlevel="5" minlevel="1">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "101,109,115,122,1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "101,109,115,122,1000"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-76,-86,-96,-106,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-91,-121,-141,-151,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-76,-86,-96,-106,-1000"/>
+    <signalstrength signalstrengthtype="evdoecio" type="EVDO" value = "-91,-121,-141,-151,-1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-102,-110,-116,-122,-1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" band="25" value = "-100,-110,-116,-122,-1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" band="26" value = "-91,-100,-110,-118,-1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" band="41" value = "-100,-111,-117,-126,-1000"/>
+    <signalstrength signalstrengthtype="rssnr" type="LTE" value = "129,44,9,-31,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="VZWOD" maxlevel="5" minlevel="1">
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-76,-86,-96,-101,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-91,-111,-131,-151,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-66,-76,-91,-106,-1000"/>
+    <signalstrength signalstrengthtype="evdosnr" type="EVDO" value = "3,-2,-5,-9,-1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-86,-96,-106,-116,-140"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" band="2,4,61" value = "-92,-102,-112,-122,-140"/>
+    <signalstrength signalstrengthtype="rssnr" type="LTE" value = "129,44,9,-31,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="USCC" maxlevel="5" minlevel="1">
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-81,-91,-101,-107,-1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-86,-96,-106,-116,-140"/>
+    <signalstrength signalstrengthtype="rssnr" type="LTE" value = "129,44,9,-31,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="CHINAMOBILE" maxlevel="5" minlevel="0">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "87,92,97,102,109,1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "90,96,102,108,114,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-98,-106,-111,-116,-121,-1000"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-86,-96,-103,-109,-115,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-71,-91,-111,-131,-151,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-86,-96,-103,-109,-115,-1000"/>
+    <signalstrength signalstrengthtype="evdosnr" type="EVDO" value = "8,6,4,2,0,-1000"/>
+    <signalstrength signalstrengthtype="tdscdmarscp" type="TDSCDMACDMA" value = "-85,-92,-98,-104,-110,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="CHINAUNICOM" maxlevel="5" minlevel="0">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "87,92,97,102,109,1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "90,96,102,108,114,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-98,-106,-111,-116,-121,-1000"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-86,-96,-103,-109,-115,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-71,-91,-111,-131,-151,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-86,-96,-103,-109,-115,-1000"/>
+    <signalstrength signalstrengthtype="evdosnr" type="EVDO" value = "8,6,4,2,0,-1000"/>
+    <signalstrength signalstrengthtype="tdscdmarscp" type="TDSCDMA" value = "-85,-92,-98,-104,-110,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="CHINATELECOM" maxlevel="5" minlevel="0">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "87,92,97,102,109,1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "90,96,102,108,114,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-98,-106,-111,-116,-121,-1000"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-86,-96,-103,-109,-115,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-71,-91,-111,-131,-151,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-86,-96,-103,-109,-115,-1000"/>
+    <signalstrength signalstrengthtype="evdosnr" type="EVDO" value = "8,6,4,2,0,-1000"/>
+    <signalstrength signalstrengthtype="tdscdmarscp" type="TDSCDMA" value = "-85,-92,-98,-104,-110,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="OPEN_MARKET_NA" maxlevel="5" minlevel="1">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "80,89,98,104,125"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "89,97,103,113,125"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-100,-110,-115,-120,-135"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-75,-85,-95,-105,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-90,-120,-140,-150,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-75,-85,-95,-105,-1000"/>
+    <signalstrength signalstrengthtype="evdoecio" type="EVDO" value = "-90,-120,-140,-150,-1000"/>
+    <signalstrength signalstrengthtype="evdosnr" type="EVDO" value = "8,6,4,2,-1000"/>
+    <signalstrength signalstrengthtype="tdscdmarscp" type="TDSCDMA" value = "-85,-92,-98,-104,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="OPEN_MARKET_CN" maxlevel="5" minlevel="0">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "87,92,97,102,109,1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "90,96,102,108,114,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-98,-106,-115,-119,-124,-1000"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-86,-96,-103,-109,-115,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-71,-91,-111,-131,-151,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-86,-96,-103,-109,-115,-1000"/>
+    <signalstrength signalstrengthtype="evdosnr" type="EVDO" value = "8,6,4,2,0,-1000"/>
+    <signalstrength signalstrengthtype="tdscdmarscp" type="TDSCDMA" value = "-85,-92,-98,-104,-110,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="ZTE_STANDARD" maxlevel="5" minlevel="0">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "89,95,101,105,110,1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "89,95,101,105,110,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-97,-105,-114,-118,-123,-1000"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-84,-90,-95,-100,-105,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-84,-90,-95,-100,-105,-1000"/>
+    <signalstrength signalstrengthtype="tdscdmarscp" type="TDSCDMA" value = "-84,-92,-98,-104,-110,-1000"/>
+</signalstrengthconfig>
+
+<signalstrengthconfig operator="ZTE_MARKET_CN" maxlevel="5" minlevel="0">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "89,95,101,105,110,1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "89,95,101,105,110,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-97,-105,-110,-115,-120,-1000"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-84,-90,-95,-100,-105,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-84,-95,-102,-108,-112,-1000"/>
+    <signalstrength signalstrengthtype="tdscdmarscp" type="TDSCDMA" value = "-84,-92,-98,-104,-110,-1000"/>
+</signalstrengthconfig>
+
+<signalstrengthconfig operator="ZTE_ORIGINAL_ANDROID" maxlevel="4" minlevel="0">
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "89,97,103,109,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-98,-108,-118,-128,-140"/>
+    <signalstrength signalstrengthtype="rssnr" type="LTE" value = "130,45,10,-30,-200"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-75,-85,-95,-100,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-90,-110,-130,-150,-1000"/>
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "89,97,103,109,1000"/>
+    <signalstrength signalstrengthtype="tdscdmarscp" type="TDSCDMA" value = "-49,-73,-97,-110,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-65,-75,-90,-105,-1000"/>
+    <signalstrength signalstrengthtype="evdosnr" type="EVDO" value = "7,5,3,1,-1000"/>
+</signalstrengthconfig>
+
+<signalstrengthconfig operator="VODAFONE" maxlevel="4" minlevel="0">
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "89,97,103,109,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-98,-108,-118,-128,-140"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-75,-85,-95,-100,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-90,-110,-130,-150,-1000"/>
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "89,97,103,109,1000"/>
+    <signalstrength signalstrengthtype="tdscdmarscp" type="TDSCDMA" value = "-49,-73,-97,-110,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-65,-75,-90,-105,-1000"/>
+    <signalstrength signalstrengthtype="evdosnr" type="EVDO" value = "7,5,3,1,-1000"/>
+</signalstrengthconfig>
+
+<signalstrengthconfig operator="VZW" maxlevel="5" minlevel="1">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "85,94,98,105,1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "56,71,86,101,1000"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-76,-86,-96,-101,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-91,-111,-131,-151,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-66,-76,-91,-106,-1000"/>
+    <signalstrength signalstrengthtype="evdosnr" type="EVDO" value = "3,-2,-5,-9,-1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-86,-96,-106,-116,-140"/>
+    <signalstrength signalstrengthtype="rssnr" type="LTE" value = "129,44,9,-31,-1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "55,70,85,100,1000"/>
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "84,93,97,104,1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="ZTE_INTERNATIONNAL" maxlevel="5" minlevel="0">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "90,96,102,108,114,1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "90,96,102,108,114,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-98,-106,-115,-119,-124,-1000"/>
+    <signalstrength signalstrengthtype="cdmadbm" type="CDMA" value = "-86,-96,-103,-109,-115,-1000"/>
+    <signalstrength signalstrengthtype="cdmaecio" type="CDMA" value = "-71,-91,-111,-131,-151,-1000"/>
+    <signalstrength signalstrengthtype="evdodbm" type="EVDO" value = "-86,-96,-103,-109,-115,-1000"/>
+    <signalstrength signalstrengthtype="evdosnr" type="EVDO" value = "8,6,4,2,0,-1000"/>
+    <signalstrength signalstrengthtype="tdscdmarscp" type="TDSCDMA" value = "-85,-93,-99,-105,-111,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="TELSTRA" maxlevel="5" minlevel="0">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "78,87,93,102,109,1000"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "78,87,93,102,109,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-90,-100,-105,-115,-120,-1000"/>
+</signalstrengthconfig>
+<signalstrengthconfig operator="TELUS" maxlevel="5" minlevel="1">
+    <signalstrength signalstrengthtype="rssi" type="GSM" value = "80,89,98,104,125"/>
+    <signalstrength signalstrengthtype="rscp" type="WCDMA" value = "80,90,100,106,125"/>
+    <signalstrength signalstrengthtype="ecio" type="WCDMA" value = "10,12,14,16,1000"/>
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-85,-95,-105,-115,-140"/>
+    <signalstrength signalstrengthtype="rssnr" type="LTE" value = "129,44,9,-31,-1000"/>
+</signalstrengthconfig>
+<!--add for WF723DL by zhouyapei_10225191 begin-->
+<signalstrengthconfig operator="ZTE_TMO_VZW" maxlevel="4" minlevel="0">
+    <signalstrength signalstrengthtype="rsrp" type="LTE" value = "-96,-106,-116,-140,-1000"/>
+    <signalstrength signalstrengthtype="rssnr" type="LTE" value = "44,9,-31,-201,-1000"/>
+</signalstrengthconfig>
+<!--add for WF723DL by zhouyapei_10225191 end-->

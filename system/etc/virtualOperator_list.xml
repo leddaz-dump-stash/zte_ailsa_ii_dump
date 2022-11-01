@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VirtualOperator>
+
+        <VirtualOperatorInfo simNumeric="21407" plmnNumeric="21407" spn="Movistar"/>
+        <VirtualOperatorInfo simNumeric="21401" plmnNumeric="21401" spn="vodafone ES"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Orange"/>
+        <VirtualOperatorInfo simNumeric="21404" plmnNumeric="21404" spn="Yoigo"/>
+        <VirtualOperatorInfo simNumeric="21404" plmnNumeric="21404" spn="MASMovil"/>
+        <VirtualOperatorInfo simNumeric="21408,21403" plmnNumeric="21403" spn="EUSKALTEL"/>
+        <VirtualOperatorInfo simNumeric="21419,21403" plmnNumeric="21403" spn="simyo"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="JAZZTEL"/>
+        <VirtualOperatorInfo simNumeric="21416,21406,21405" plmnNumeric="21401,21407" spn="telecable"/>
+        <VirtualOperatorInfo simNumeric="21417,21403" plmnNumeric="21403" spn="mobilR"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Carrefour"/>
+        <VirtualOperatorInfo simNumeric="21406" plmnNumeric="21401" spn="Eroski Movil"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="MASmovil"/>
+        <VirtualOperatorInfo simNumeric="21406,21405" plmnNumeric="21407" spn="pepephone"/>
+        <VirtualOperatorInfo simNumeric="21406" plmnNumeric="21401" spn="Hits"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="RACC"/>
+        <VirtualOperatorInfo simNumeric="21425" plmnNumeric="21407" spn="Lycamobile"/>
+        <VirtualOperatorInfo simNumeric="21422" plmnNumeric="21407" spn="DIGI mobil"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Oceans"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="amena"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="YOU Mobile"/>
+        <VirtualOperatorInfo simNumeric="21406" plmnNumeric="21401" spn="Lebara"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Happy"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Ibercom"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="CABLE movil"/>
+        <VirtualOperatorInfo simNumeric="21406" plmnNumeric="21401" spn="Lowi"/>
+        <VirtualOperatorInfo simNumeric="21432" plmnNumeric="21407" spn="Tuenti"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="MovilDIA"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="LCR"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="LlamaYA"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="IOS"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Republica Movil"/>
+        <VirtualOperatorInfo simNumeric="50503" plmnNumeric="50503" spn="Lebara"/>
+
+</VirtualOperator>

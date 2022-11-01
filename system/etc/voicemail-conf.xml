@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voicemail>
+<!--
+	This is a list for operator specific default voicemail numbers.
+	For those EF_MBDN(3G) and EF_MN(CPHS) are both empty case,
+	We will use below voicemail number for instead if numeric is matched.
+
+	Please also be noted, below numbers are not modifiable once anyone
+	of those is used as default VM number.
+
+	Format is listed as below:
+	<voicemail
+	    numeric="MCC+MNC"
+	    carrier="Operator Name"
+	    vmnumber="Voicemail Number"
+	    vmtag="Tag for Voicemail" />
+===============================================================================================================
+when                 who                  what , where,  why                             comment tag
+2010-10-20        lisheng               Change several vmNumber                          ZTE_LEESEN_SOFTBANK1416
+2010-11-12        lisheng               Add    several vmNumber                          ZTE_LEESEN_P735F
+2010-11-15        lisheng               Change   vmNumber                                ZTE_LEESEN_P729J
+2010-12-21        peijian               Add voicemail for P729B_OUK                      ZTE_PJ_VM_20101221
+2010-12-23        peijian               Add voicemail for P729C                          ZTE_PJ_VM_20101223
+2011-01-17        shi  yi               Add voicemail for P733N                          ZTE_SHIYI_P733N
+2011-2-16         lisheng               Add voicemail for P729T CRDB00610458             ZTE_LEESEN_P729TXieMan
+2011-02-21        peijian               Add voicemail for FRY_P729K,CRDB00613788      ZTE_PJ_VM_20110221
+2011-02-24        peijian               Add voicemail for Vibof_P729VV      	  ZTE_PJ_VM_20110224
+2011-06-13        peijian               Add voicemail for P743_OPT			  ZTE_PJ_VM_20110613
+2011-06-15        peijian               Add voicemail for P743_TME			  ZTE_PJ_VM_20110615
+2011-07-14        peijian               Add voicemail for Life			  	  ZTE_PJ_20110714
+2011-08-04        peijian               Add voicemail for Orange			  ZTE_PJ_20110804
+2011-08-17        peijian               Modify voicemail tag
+2011-09-06        yangxiangling     add Venezuela voicemail tag
+2011-09-06        yangxiangling     add Costa Rica voicemail tag
+2011-09-13        peijian               Add voicemail for TMOBILE			  ZTE_PJ_20110913
+2012-01-19        wangchao              Add voicemail for Argentina Claro     ZTE_WANGCHAO_20120119
+2012-02-24        wangsong              Add and Change voicemail for Movistar     ZTE_wangsong_20120224
+2012-09-24        yaoxu                 Add voicemail for P772N10_VIP         ZTE_YX_20120924
+2012-09-24        wangsong              Add voicemail for P772N10_OMD         ZTE_wangsong_20120925
+2012-09-27        yaoxu                 modify voicemail for P772N10_OMD         ZTE_YX_20120927
+2012-09-28        wangsong              Add voicemail for P772N10_VIPNET         ZTE_wangsong_20120928
+2015-03-10        yutieshuan            Add voicemail for ATT-TF/TMO/SimpleMobile         ZTE_YTS_ATT_TF
+2017-11-21        liuyan            Add voicemail for telcel         ZTE_LY_TELCEL
+===============================================================================================================
+-->
+
+    <voicemail
+        numeric="20416"
+        carrier="TMO NL"
+        vmnumber="+31624001233"
+        vmtag="Voicemail"/>
+
+    <!-- 214 Spain begin carrier as SPN -->
+    <!-- 214 Spain begin carrier in  voicemail-spn-conf.xml-->
+    <!-- ORANGE  -->
+    <voicemail
+        numeric="21407"
+        carrier="Movistar"
+        vmnumber="123"
+        vmtag="Buzón Movistar"/>
+    <!-- vodafone  -->
+    <voicemail
+        numeric="21401"
+        carrier="vodafone ES"
+        vmnumber="22177"
+        vmtag="Voicemail"/>
+   <!-- 214 end  -->
+
+    <voicemail
+        numeric="23001"
+        carrier="TMO CZ"
+        vmnumber="+420603123311"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="23203"
+        carrier="TMO AT"
+        vmnumber="+436762200"
+        vmtag="Voicemail"/>
+
+    <!-- this empty vmnumber is from TM,
+    however, empty string should not be used in this field.
+    because of non-modifiable will be an issue
+    <voicemail
+        numeric="23430"
+        carrier="TMO UK"
+        vmnumber=""
+        vmtag="Voicemail" />
+        -->
+
+    <voicemail
+        numeric="26201"
+        carrier="TMO DE"
+        vmnumber="+491712523311"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="20801"
+        carrier="Orange FRA"
+        vmnumber="888"
+        vmtag="Voicemail"/>
+
+    <!-- begin      ZTE_YX_20120924  -->
+    <voicemail
+        numeric="22005"
+        carrier="P772N10_VIP"
+        vmnumber="+381607777"
+        vmtag="Voicemail"/>
+    <!-- end        ZTE_YX_20120924  -->
+    <voicemail
+        numeric="21901"
+        carrier="T-Mobile"
+        vmnumber="+385981511"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="20205"
+        carrier="Vodafone"
+        vmnumber="121"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="26303"
+        carrier="E-Plus"
+        vmnumber="+491779911"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="23415"
+        carrier="vodafone UK"
+        vmnumber="121"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="26202"
+        carrier="VF-DE"
+        vmnumber="5500"
+        vmtag="Voicemail"/>
+
+
+    <voicemail
+        numeric="20404"
+        carrier="vodafone NL"
+        vmnumber="+31654501233"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="65501"
+        carrier="Vodacom"
+        vmnumber="121"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="26801"
+        carrier="Vodafone"
+        vmnumber="123"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="26889"
+        carrier="Vodafone"
+        vmnumber="123"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="42702"
+        carrier="VF-QT"
+        vmnumber="121"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="50502"
+        carrier="Optus"
+        vmnumber="+61411000321"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="50503"
+        carrier="VodafoneAU"
+        vmnumber="121"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="50501"
+        carrier="Telstra"
+        vmnumber="+61101"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="50506"
+        carrier="Hutch"
+        vmnumber="+61430005333"
+        vmtag="Voicemail"/>
+
+<voicemail
+        numeric="53001"
+        carrier="VodafoneNZ"
+        vmnumber="+6421700700"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="53005"
+        carrier="TelecomNZ"
+        vmnumber="+6483083210"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="27201"
+        carrier="vodafone IE"
+        vmnumber="171"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="20810"
+        carrier="SFR"
+        vmnumber="123"
+        vmtag="Voicemail" />
+
+    <voicemail
+        numeric="20811"
+        carrier="SFR (France)"
+        vmnumber="123"
+        vmtag="Voicemail"/>
+
+    <!-- begin      ZTE_LEESEN_P735F  -->
+    <voicemail
+        numeric="64710"
+        carrier="SRR"
+        vmnumber="123"
+        vmtag=""/>
+    <!-- end        ZTE_LEESEN_P735F  -->
+
+    <voicemail
+        numeric="22801"
+        carrier="Swisscom (Switzerland)"
+        vmnumber="+41794997979"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="23201"
+        carrier="Mobilkom (Austria)"
+        vmnumber="66477"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="42702"
+        carrier="Vodafone Qatar"
+        vmnumber="121"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="27801"
+        carrier="Vodafone Malta"
+        vmnumber="0035699909909"
+        vmtag="Voicemail"/>
+
+    <!-- ZTE_LEESEN_P729J  -->
+
+    <!-- begin      ZTE_LEESEN_SOFTBANK1416  -->
+    <voicemail
+        numeric="44004"
+        carrier="SoftBank"
+        vmnumber="1416"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="44006"
+        carrier="SoftBank"
+        vmnumber="1416"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="44020"
+        carrier="SoftBank"
+        vmnumber="1416"
+        vmtag="Voicemail"/>
+    <!-- end      ZTE_LEESEN_SOFTBANK1416  -->
+
+    <voicemail
+        numeric="25001"
+        carrier="MTS RUS"
+        vmnumber="0861"
+        vmtag="Voicemail"/>
+
+    <!-- begin      ZTE_LEESEN_P729S -->
+    <voicemail
+        numeric="51503"
+        carrier="SMART"
+        vmnumber="100"
+        vmtag="Voicemail"/>
+    <!-- end        ZTE_LEESEN_P729S  -->
+
+    <!--Begin ZTE_PJ_20110804-->
+    <voicemail
+        numeric="23101"
+        carrier="Orange"
+        vmnumber="555"
+        vmtag="Voicemail"/>
+    <!--End ZTE_PJ_20110804-->
+
+    <!--Begin ZTE_PJ_VM_20101221-->
+    <voicemail
+        numeric="23433"
+        carrier="OUK"
+        vmnumber="+44 7973100123"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="23486"
+        carrier="OUK"
+        vmnumber="+44 7973100123"
+        vmtag="Voicemail"/>
+    <!--End ZTE_PJ_VM_20101221-->
+
+    <!--Begin ZTE_PJ_VM_20101223-->
+    <voicemail
+        numeric="20820"
+        carrier="Bouygues Telecom"
+        vmnumber="+33660660001"
+        vmtag="Voicemail"/>
+    <!--End ZTE_PJ_VM_20101223-->
+
+    <!--Begin ZTE_PJ_20110913-->
+    <voicemail
+        numeric="21630"
+        carrier="TMOBILE"
+        vmnumber="+36309888444"
+        vmtag=""/>
+    <!--End ZTE_PJ_20110913-->
+
+    <!--Begin ZTE_PJ_20110714-->
+    <voicemail
+        numeric="25704"
+        carrier="Life"
+        vmnumber="985"
+        vmtag="Voicemail"/>
+    <!--End ZTE_PJ_20110714-->
+
+    <!--Begin ZTE_PJ_VM_2011613-->
+    <voicemail
+        numeric="26803"
+        carrier="Optimus"
+        vmnumber="133"
+        vmtag=""/>
+    <!--End ZTE_PJ_VM_20110613-->
+
+    <!--Begin ZTE_SHIYI_P733N-->
+    <voicemail
+        numeric="26806"
+        carrier="TMN"
+        vmnumber="+351962000000"
+        vmtag="Voicemail"/>
+    <!--End ZTE_SHIYI_P733N-->
+
+    <!-- begin      ZTE_LEESEN_P729TXieMan -->
+    <voicemail
+        numeric="21630"
+        carrier="T-Mobile H"
+        vmnumber="+36309888444"
+        vmtag="Voicemail"/>
+
+    <voicemail
+        numeric="21670"
+        carrier="vodafone"
+        vmnumber="170"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="21601"
+        carrier="Telenor"
+        vmnumber="+36209400404"
+        vmtag="Voicemail"/>
+    <!-- end        ZTE_LEESEN_P729TXieMan  -->
+
+    <!--Begin ZTE_PJ_VM_20110221-->
+    <voicemail
+        numeric="26203"
+        carrier="E-plus"
+        vmnumber="+491779911"
+        vmtag="Voicemail"/>
+    <!--End ZTE_PJ_VM_20110221-->
+
+    <!--Begin ZTE_LIUYANG_20120409-->
+    <voicemail
+        numeric="28601"
+        carrier="Turkcell"
+        vmnumber="7532"
+        vmtag="Voicemail"/>
+    <!--End ZTE_LIUYANG_20120409-->
+
+    <!--Begin ZTE_PJ_VM_20110224-->
+    <voicemail
+        numeric="46689"
+        carrier="VIBO"
+        vmnumber="+886986000777"
+        vmtag="Voicemail"/>
+    <!--End ZTE_PJ_VM_20110224-->
+    <!-- begin      ZTE_LEESEN_v9Liyan -->
+    <voicemail
+        numeric="46697"
+        carrier="TW Mobile"
+        vmnumber="123"
+        vmtag="Voicemail"/>
+
+    <!-- end        ZTE_LEESEN_v9Liyan  -->
+    <voicemail
+        numeric="72406"
+        carrier="TW Mobile"
+        vmnumber="*555"
+        vmtag=""/>
+     <voicemail
+        numeric="72410"
+        carrier="TW Mobile"
+        vmnumber="*555"
+        vmtag=""/>
+    <voicemail
+        numeric="72411"
+        carrier="TW Mobile"
+        vmnumber="*555"
+        vmtag=""/>
+    <voicemail
+        numeric="72423"
+        carrier="TW Mobile"
+        vmnumber="*555"
+        vmtag=""/>
+
+    <voicemail
+        numeric="74000"
+        carrier="movistar"
+        vmnumber="*82"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="74001"
+        carrier="movistar"
+        vmnumber="*82"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="74002"
+        carrier="movistar"
+        vmnumber="*82"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="33403"
+        carrier="movistar"
+        vmnumber="186"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="334030"
+        carrier="movistar"
+        vmnumber="186"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="33430"
+        carrier="movistar"
+        vmnumber="186"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="710300"
+        carrier="movistar"
+        vmnumber="*86"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="71030"
+        carrier="movistar"
+        vmnumber="*86"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="71402"
+        carrier="movistar"
+        vmnumber="*86"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="714020"
+        carrier="movistar"
+        vmnumber="*86"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="73002"
+        carrier="movistar"
+        vmnumber="500"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="74807"
+        carrier="movistar"
+        vmnumber="6684"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="72207"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="722070"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="722071"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="722072"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="722073"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="722074"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="722075"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="722076"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="722077"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="722078"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="722079"
+        carrier="movistar"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <!--Begin ZTE_WANGCHAO_20120119-->
+    <voicemail
+        numeric="722310"
+        carrier="Claro"
+        vmnumber="*2747"
+        vmtag="Voicemail" />
+    <!--end ZTE_WANGCHAO_20120119-->
+    <voicemail
+        numeric="70403"
+        carrier="movistar"
+        vmnumber="*86"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="704030"
+        carrier="movistar"
+        vmnumber="*86"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="70604"
+        carrier="movistar"
+        vmnumber="*86"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="732123"
+        carrier="movistar"
+        vmnumber="*123"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="71606"
+        carrier="movistar"
+        vmnumber="*169"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="73404"
+        carrier="movistar"
+        vmnumber="*2"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="71204"
+        carrier="movistar"
+        vmnumber="*1690"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="24008"
+        carrier="telenor"
+        vmnumber="888"
+        vmtag="Voicemail" />
+    <!--ZTE_wangsong_20120925 ZTE_YX_20120927 begin-->
+    <voicemail
+        numeric="25901"
+        carrier="OMD"
+        vmnumber="555"
+        vmtag="Voicemail" />
+    <!--ZTE_wangsong_20120925 ZTE_YX_20120927 end-->
+    <!--ZTE_wangsong_20120928 begin-->
+    <voicemail
+        numeric="21910"
+        carrier="VIP"
+        vmnumber="+385917000"
+        vmtag="Voicemail" />
+    <!--ZTE_wangsong_20120928 end-->
+    <!--ZTE_wangsong_20120224 begin-->
+    <voicemail
+        numeric="732101"
+        carrier="Movistar"
+        vmnumber="*123"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="732111"
+        carrier="Movistar"
+        vmnumber="*123"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="732103"
+        carrier="Movistar"
+        vmnumber="*123"
+        vmtag="Voicemail" />
+    <!--ZTE_wangsong_20120224 end-->
+
+    <!-- begin  ZTE_YTS_ATT_TF -->
+    <!-- 330110 begin carrier in  voicemail-spn-conf.xml-->
+    <voicemail
+        numeric="330110"
+        carrier="TF-Claro"
+        vmnumber="*86"
+        vmtag="Voicemail" />
+    <!-- 310260 begin carrier in  voicemail-spn-conf.xml-->
+    <voicemail
+        numeric="310260"
+        carrier="TF-TMO/SimpleMobile"
+        vmnumber="+18056377243"
+        vmtag="Voicemail" />
+
+    <!-- end  ZTE_YTS_ATT_TF  -->
+
+    <voicemail
+        numeric="311480"
+        carrier="VZW"
+        vmnumber="*86"
+        vmtag="Voicemail" />
+
+    <voicemail
+        numeric="330110"
+        carrier="TF-Claro"
+        vmnumber="*86"
+        vmtag="Voicemail" />
+    <!-- begin  ZTE_LY_TELCEL -->
+    <!-- 334020 begin carrier in  voicemail-conf.xml-->
+    <voicemail
+        numeric="334020"
+        carrier="Telcel"
+        vmnumber="*86"
+        vmtag="Voicemail" />
+    <!-- end  ZTE_LY_TELCEL  -->
+    <!-- zte_modify_liuyan,Europe Voicemail,2017-12-20,begin  -->
+    <!-- Vodafone CZ-->
+    <voicemail
+        numeric="23003"
+        carrier="Vodafone CZ"
+        vmnumber="+420608989898"
+        vmtag="Voicemail" />
+    <!-- Vodafone CZ end  -->
+    <!-- Telekom-->
+    <voicemail
+        numeric="26201"
+        carrier="Telekom"
+        vmnumber="3311"
+        vmtag="Voicemail"/>
+    <!-- Telekom end-->
+    <!-- Vodafone.de-->
+    <voicemail
+        numeric="26202"
+        carrier="Vodafone.de"
+        vmnumber="5500"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="26204"
+        carrier="Vodafone.de"
+        vmnumber="5500"
+        vmtag="Voicemail"/>
+    <voicemail
+        numeric="26209"
+        carrier="Vodafone.de"
+        vmnumber="5500"
+        vmtag="Voicemail"/>
+    <!-- Vodafone.de end-->
+    <!-- o2-->
+    <voicemail
+        numeric="26207"
+        carrier="o2"
+        vmnumber="+491793000333"
+        vmtag="Voicemail"/>
+    <!-- o2 end-->
+    <!-- France voicemail-->
+    <voicemail
+        numeric="20810"
+        carrier="NRJ (SFR)"
+        vmnumber="123"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="20810"
+        carrier="Auchan"
+        vmnumber="123"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="20810"
+        carrier="Debitel"
+        vmnumber="123"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="20810"
+        carrier="Leclerc"
+        vmnumber="123"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="20801"
+        carrier="Virgin"
+        vmnumber="888"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="20801"
+        carrier="Tele2"
+        vmnumber="888"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="20801"
+        carrier="Carrefour"
+        vmnumber="888"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="20801"
+        carrier="NRJ (ORANGE)"
+        vmnumber="888"
+        vmtag="Voicemail" />
+    <voicemail
+        numeric="20801"
+        carrier="Orange"
+        vmnumber="888"
+        vmtag="Voicemail" />
+    <!-- France voicemail,end-->
+    <!-- Italy voicemail-->
+    <voicemail
+        numeric="22210"
+        carrier="vodafone IT"
+        vmnumber="42020"
+        vmtag="Voicemail" />
+    <!-- Italy voicemail,end-->
+    <!-- VDF Ro voicemail-->
+    <voicemail
+        numeric="22601"
+        carrier="VDF Ro"
+        vmnumber="+40722033334"
+        vmtag="Voicemail" />
+    <!-- VDF Ro voicemail,end-->
+    <!-- Vodafone TR voicemail-->
+    <voicemail
+        numeric="28602"
+        carrier="Vodafone TR"
+        vmnumber="+905427542000"
+        vmtag="Voicemail" />
+    <!-- Vodafone TR voicemail,end-->
+    <!-- vodafone UK voicemail-->
+    <voicemail
+        numeric="23415"
+        carrier="vodafone UK"
+        vmnumber="121"
+        vmtag="Voicemail" />
+    <!-- Vodafone UK voicemail,end-->
+    <!-- vodafone ALBNIA voicemail-->
+    <voicemail
+        numeric="27602"
+        carrier="vodafone"
+        vmnumber="135"
+        vmtag="Voicemail" />
+    <!-- Vodafone ALBNIA voicemail,end-->
+    <!-- vodafone 莱索托voicemail-->
+    <voicemail
+        numeric="65101"
+        carrier="Vodacom"
+        vmnumber="133"
+        vmtag="Voicemail" />
+    <!-- Vodafone 莱索托 voicemail,end-->
+    <!-- vodafone iceland voicemail-->
+    <voicemail
+        numeric="27402"
+        carrier="vodafone IS"
+        vmnumber="1415"
+        vmtag="Voicemail" />
+    <!-- Vodafone iceland voicemail,end-->
+    <voicemail
+        numeric="62002"
+        carrier="vodafone GH"
+        vmnumber="2020"
+        vmtag="Voicemail" />
+    <!-- Vodafone iceland voicemail,end-->
+    <!-- vodafone 刚果 voicemail-->
+    <voicemail
+        numeric="63001"
+        carrier="Vodacom"
+        vmnumber="1121"
+        vmtag="Voicemail" />
+    <!-- Vodafone 刚果 voicemail,end-->
+    <!-- vodafone 乌克兰 voicemail-->
+    <voicemail
+        numeric="25501"
+        carrier="Vodafone"
+        vmnumber="+380501200000"
+        vmtag="Voicemail" />
+    <!-- Vodafone 乌克兰 voicemail,end-->
+    <!-- H3G voicemail-->
+    <voicemail
+        numeric="23420"
+        carrier="H3G"
+        vmnumber="+447782333123"
+        vmtag="Voicemail" />
+    <!-- H3G voicemail,end-->
+    <!-- Orange voicemail-->
+    <voicemail
+        numeric="23433"
+        carrier="Orange"
+        vmnumber="+447973100123"
+        vmtag="Voicemail" />
+    <!-- Orange voicemail,end-->
+    <!-- Telecom voicemail-->
+    <voicemail
+        numeric="21890"
+        carrier="Telecom"
+        vmnumber="+38761123123"
+        vmtag="Voicemail" />
+    <!-- Telecom voicemail,end-->
+    <!-- MTEL voicemail-->
+    <voicemail
+        numeric="21805"
+        carrier="MTEL"
+        vmnumber="+3876555400"
+        vmtag="Voicemail" />
+    <!-- MTEL voicemail,end-->
+    <!-- Austria voicemail-->
+    <voicemail
+        numeric="23207"
+        carrier="0677 web"
+        vmnumber="+436776000"
+        vmtag="Voicemail" />
+    <!-- Austria voicemail,end-->
+    <!-- Peru voicemail-->
+    <voicemail
+        numeric="71610"
+        carrier="Claro"
+        vmnumber="131"
+        vmtag="Voicemail" />
+    <!-- Peru voicemail,end-->
+</voicemail>

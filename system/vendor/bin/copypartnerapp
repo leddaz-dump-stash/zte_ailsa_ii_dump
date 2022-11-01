@@ -1,0 +1,23 @@
+#!/system/bin/sh
+
+FILENAME=/data/system/entropy.dat
+FILENAME1=/persist/fotaflag.txt
+
+if [ -f $FILENAME ]; then
+    if [ -f $FILENAME1 ]; then
+
+	    ln -s /system/partner-app/*  /data/app/
+		
+		cat /data/app/.delpartnerapp | while read line
+		do
+			rm $line
+			echo "$line is deleted app"
+		done
+		rm $FILENAME1
+	else
+       echo "File exists, not the first"
+	fi
+else
+    echo "ZSW the first, ln to data/app "
+    ln -s /system/partner-app/*  /data/app/	
+fi 

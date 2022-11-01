@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="6">
+
+    <global key = "charging_sounds_enabled"
+        value = "0"
+    />
+</settings>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialOperator>
+
+        <VirtualOperatorInfo simNumeric="21407" plmnNumeric="21407" spn="Movistar"/>
+        <VirtualOperatorInfo simNumeric="21401" plmnNumeric="21401" spn="vodafone ES"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Orange"/>
+        <VirtualOperatorInfo simNumeric="21404" plmnNumeric="21404" spn="Yoigo"/>
+        <VirtualOperatorInfo simNumeric="21404" plmnNumeric="21404" spn="MASMovil"/>
+        <VirtualOperatorInfo simNumeric="21408,21403" plmnNumeric="21403" spn="EUSKALTEL"/>
+        <VirtualOperatorInfo simNumeric="21419,21403" plmnNumeric="21403" spn="simyo"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="JAZZTEL"/>
+        <VirtualOperatorInfo simNumeric="21416,21406,21405" plmnNumeric="21401,21407" spn="telecable"/>
+        <VirtualOperatorInfo simNumeric="21417,21403" plmnNumeric="21403" spn="mobilR"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Carrefour"/>
+        <VirtualOperatorInfo simNumeric="21406" plmnNumeric="21401" spn="Eroski Movil"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="MASmovil"/>
+        <VirtualOperatorInfo simNumeric="21406,21405" plmnNumeric="21407" spn="pepephone"/>
+        <VirtualOperatorInfo simNumeric="21406" plmnNumeric="21401" spn="Hits"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="RACC"/>
+        <VirtualOperatorInfo simNumeric="21425" plmnNumeric="21407" spn="Lycamobile"/>
+        <VirtualOperatorInfo simNumeric="21422" plmnNumeric="21407" spn="DIGI mobil"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Oceans"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="amena"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="YOU Mobile"/>
+        <VirtualOperatorInfo simNumeric="21406" plmnNumeric="21401" spn="Lebara"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Happy"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Ibercom"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="CABLE movil"/>
+        <VirtualOperatorInfo simNumeric="21406" plmnNumeric="21401" spn="Lowi"/>
+        <VirtualOperatorInfo simNumeric="21432" plmnNumeric="21407" spn="Tuenti"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="MovilDIA"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="LCR"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="LlamaYA"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="IOS"/>
+        <VirtualOperatorInfo simNumeric="21403" plmnNumeric="21403" spn="Republica Movil"/>
+
+        <!-- Austria -->
+        <VirtualOperatorInfo plmnNumeric="23203,23207" pnn="AllianzSIM"/>
+        <VirtualOperatorInfo plmnNumeric="23201,23211" pnn="bob"/>
+        <VirtualOperatorInfo plmnNumeric="23203,23207" pnn="HoT"/>
+        <VirtualOperatorInfo plmnNumeric="23203,23207" pnn="LiwestMobil"/>
+        <VirtualOperatorInfo plmnNumeric="23203,23207" pnn="Liwest Mobil"/>
+        <VirtualOperatorInfo plmnNumeric="23203,23205,23210" pnn="MediaMarkt"/>
+        <VirtualOperatorInfo plmnNumeric="23203,23207" pnn="RAPID"/>
+        <VirtualOperatorInfo plmnNumeric="23203,23205,23210" pnn="SATURNmobil"/>
+        <VirtualOperatorInfo plmnNumeric="23203,23205" pnn="simpli"/>
+        <VirtualOperatorInfo plmnNumeric="23203,23207" pnn="tele.ring"/>
+        <VirtualOperatorInfo plmnNumeric="23203,23219" pnn="Tele2"/>
+        <VirtualOperatorInfo plmnNumeric="23205,23210" pnn="UPC AT"/>
+        <VirtualOperatorInfo plmnNumeric="23201,23212" pnn="yesss!"/>
+        <VirtualOperatorInfo plmnNumeric="23201,23212" pnn="Ge org!"/>
+        <VirtualOperatorInfo plmnNumeric="23213" pnn="UPC"/>
+        <VirtualOperatorInfo plmnNumeric="23203,23207" pnn="Allianz"/>
+        <VirtualOperatorInfo plmnNumeric="23218" pnn="simpli TV"/>
+        <VirtualOperatorInfo plmnNumeric="23210" pnn="Media Markt Mobil"/>
+        <VirtualOperatorInfo plmnNumeric="23210" pnn="Satrum Mobil"/>
+
+        <CustomizedOperatorInfo simNumeric="50503" plmnNumeric="50502" spn="Lebara" override="Roaming"/>
+        <CustomizedOperatorInfo simNumeric="50503" plmnNumeric="50502" override="Vodafone AU R"/>
+        <CustomizedOperatorInfo simNumeric="50503" plmnNumeric="50503" spn="Lebara" override="Lebara"/>
+        <CustomizedOperatorInfo simNumeric="50503" plmnNumeric="50503" override="Vodafone AU"/>
+        <CustomizedOperatorInfo plmnNumeric="25020" plmn="Tele2" override="Tele2 RU"/>
+</SpecialOperator>

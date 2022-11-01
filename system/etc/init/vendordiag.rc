@@ -1,0 +1,4 @@
+service vendordiag /system/bin/vendordiag
+    class core
+    user root
+    group radio cache inet misc audio diag

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyconfig>
+    <Policy>
+        <policyname>DropBoxPolicy</policyname>
+        <loadstatus>true</loadstatus>
+        <agentname>adblog</agentname>
+        <initialstatus>false</initialstatus>
+        <reportevent>RADAR_EVENT_CRASH_REPORT</reportevent>
+        <reportlogtype></reportlogtype>
+        <reportlogid></reportlogid>
+    </Policy>
+    <Policy>
+        <policyname>RamdumpPolicy</policyname>
+        <loadstatus>false</loadstatus>
+        <agentname>ramdump,adblog</agentname>
+        <initialstatus>true</initialstatus>
+        <reportevent>RADAR_EVENT_RAMDUMP_REPORT</reportevent>
+        <reportlogtype>RADAR_LOG_TYPE_RAM_DUMP</reportlogtype>
+        <reportlogid>INTERNAL_LOG_ID</reportlogid>
+    </Policy>
+    <Policy>
+        <policyname>PowerPolicy</policyname>
+        <loadstatus>false</loadstatus>
+        <agentname>power</agentname>
+        <initialstatus>false</initialstatus>
+        <reportevent>RADAR_EVENT_POWER_REPORT</reportevent>
+        <reportlogtype>RADAR_LOG_TYPE_POWER_ISSUE_REPORT</reportlogtype>
+        <reportlogid>INTERNAL_LOG_ID</reportlogid>
+    </Policy>
+    <Policy>
+        <policyname>PowerOnPolicy</policyname>
+        <loadstatus>true</loadstatus>
+        <agentname>poweron</agentname>
+        <initialstatus>false</initialstatus>
+        <reportevent>RADAR_EVENT_POWER_ON_REPORT</reportevent>
+        <reportlogtype>RADAR_LOG_TYPE_PERFORMANCE_COLLECT,RADAR_LOG_TYPE_POWER_STATISTICS</reportlogtype>
+        <reportlogid>INTERNAL_LOG_ID</reportlogid>
+    </Policy>
+</policyconfig>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="6">
+
+    <system key = "cover_interface"
+        value = "1"
+    />
+    <system key = "notification_light_pulse"
+        value = "1"
+    />
+    <system key = "charging_indicator"
+        value = "1"
+    />
+    <system key = "low_battery_indicator"
+        value = "1"
+    />
+    <system key = "new_event_indicator"
+        value = "1"
+    />
+    <system key = "notification_indicator"
+        value = "1"
+    />
+    <system key = "status_bar_show_battery_percent"
+        value = "1"
+    />
+
+</settings>
